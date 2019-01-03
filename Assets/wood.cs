@@ -1,9 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class MenuUiManager : MonoBehaviour
+public class wood : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -16,11 +15,4 @@ public class MenuUiManager : MonoBehaviour
     {
         
     }
-
-    public void Play() {
-        SceneManager.LoadScene("game");
-        
-    }
-
-
 }
